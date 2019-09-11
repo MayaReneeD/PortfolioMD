@@ -12,7 +12,7 @@
       color: black; 
       text-decoration: none; 
       font-size: 25px;
-      border-bottom: 1px solid #8c99a3;
+      
   
     
   }
@@ -24,6 +24,7 @@
 
   li {
       margin-top: .5%;
+      display: inline-block; 
   }
 
   
@@ -52,6 +53,8 @@
       display: inline-block; 
       width: 35%; 
       list-style: none; 
+      margin-top: 10%; 
+      
       
       
   }
@@ -72,7 +75,7 @@
     margin-bottom: 20px; 
     padding: 25px; 
     margin-top: 16.5%; 
-}
+} 
   
 
   .Office.right-desc {
@@ -86,6 +89,8 @@
   .Quiz {
       width: 100%;
       height: auto; 
+     
+    
   }
 
   ul {
@@ -93,6 +98,7 @@
       padding: 0; 
       text-align: center;
       font-size: 18px; 
+      
   }
   
   
@@ -104,6 +110,8 @@
   .irc_mi {
       width: 100%; 
       height: auto; 
+      border-right: 1px solid #8c99a3;
+      padding: 5%;
       
   }
 
@@ -132,7 +140,16 @@
           
       }
 
-      .right-desc {
+      .irc_mi {
+          border-bottom: 0; 
+          padding: 0; 
+      }
+
+      li {
+          display: block; 
+      }
+
+      .right-desc, .aboutme {
           float: none; 
           width: 100%; 
       }
