@@ -148,7 +148,7 @@
   }
 
   .btn-dark:hover, .btn-light:hover {
-      color: lightskyblue; 
+      color: darkblue; 
       background-color: darkgray; 
   }
   @media screen and (max-width: 800px){
