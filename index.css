@@ -3,6 +3,14 @@
   }
 
 
+.projects-container {
+    height: 75vh; 
+    overflow: scroll;
+    
+
+}
+
+
   main {
       text-align: left; 
       margin-top: 5vh;
@@ -18,7 +26,7 @@
   }
 
   .nav-link:hover {
-      color:lightskyblue; 
+      color:darkblue; 
 
   }
 
@@ -29,7 +37,7 @@
 
   
   body {
-    background-color: #FDFFFC;
+    background-color: #B1C0CA;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     color: black;
@@ -85,12 +93,22 @@
        
     
   }
+  .Heels.right-desc {
+    margin-top: 6%; 
+    margin-bottom: 15px;
+    padding: 25px; 
+  }
 
   .Quiz {
       width: 100%;
       height: auto; 
      
     
+  }
+
+  .Heels {
+      width: 100%;
+      height: auto;
   }
 
   ul {
@@ -110,7 +128,7 @@
   .irc_mi {
       width: 100%; 
       height: auto; 
-      border-right: 1px solid #8c99a3;
+      border-right: 1px solid black;
       padding: 5%;
       
   }
@@ -152,9 +170,6 @@
       .right-desc, .aboutme {
           float: none; 
           width: 100%; 
+    
       }
-
-  }
-  
-  
-  
+      
