@@ -2,10 +2,15 @@
     box-sizing: border-box;
   }
 
+  body {
+    margin: auto 0; 
+    
+  }
 
 .projects-container {
     height: 75vh; 
     overflow: scroll;
+    font-family: 'Oranienbaum', serif; 
     
 
 }
@@ -14,6 +19,9 @@
   main {
       text-align: left; 
       margin-top: 5vh;
+      font-family: 'News Cycle', sans-serif;
+
+      
   }
 
   .nav-link {
@@ -21,7 +29,7 @@
       text-decoration: none; 
       font-size: 25px;
       margin: 2px; 
-      
+  
       
   
     
@@ -34,6 +42,8 @@
 
   }
 
+  
+
   li {
       margin-top: .5%;
       display: inline-block; 
@@ -42,7 +52,7 @@
   
   body {
     background-color: #B1C0CA;
-    font-family: 'Oranienbaum', serif; 
+    font-family: 'News Cycle', sans-serif;
     font-size: 20px;
     color: black;
     text-align: center;
@@ -66,6 +76,7 @@
       width: 35%; 
       list-style: none; 
       margin-top: 10%; 
+     
       
       
       
@@ -78,6 +89,8 @@
       margin-bottom: 20px; 
       padding: 25px; 
       margin-top: 20%; 
+      font-family: 'News Cycle', sans-serif;
+
   }
 
   .aboutme {
@@ -97,6 +110,12 @@
        
     
   }
+
+   .scroll {
+    text-align: center; 
+}
+
+
   .Heels.right-desc {
     margin-top: 6%; 
     margin-bottom: 15px;
@@ -139,7 +158,7 @@
 
   .btn-dark, .btn-light {
       font-size: 18px; 
-      font-family: 'Oranienbaum', serif; 
+      font-family: 'News Cycle', sans-serif;
       padding: 5px 10px; 
       font-weight: 300; 
       background-color:lightgray;
@@ -147,6 +166,7 @@
       font-weight: 400;  
       transition: color 1s; 
       transition: background-color 1s; 
+      cursor: pointer;
 
 
   }
@@ -154,11 +174,13 @@
   .btn-dark:hover, .btn-light:hover {
       color: darkblue; 
       background-color: darkgray; 
+      
   }
   @media screen and (max-width: 800px){
       .left-nav {
           display: block; 
           width: 100%; 
+          
           
       }
 
@@ -174,6 +196,7 @@
       .right-desc, .aboutme {
           float: none; 
           width: 100%; 
+         
     
       }
-      
+    
