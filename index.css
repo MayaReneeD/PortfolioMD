@@ -31,16 +31,13 @@
       margin: 2px; 
   
       
-  
     
   }
 
-  .nav-link:hover {
-      color:darkblue; 
-     
-
-
+  .projects {
+      text-align: center;
   }
+ 
 
   
 
@@ -51,7 +48,7 @@
 
   
   body {
-    background-color: #B1C0CA;
+    background-color: white; 
     font-family: 'News Cycle', sans-serif;
     font-size: 20px;
     color: black;
@@ -86,53 +83,53 @@
       width: 65%; 
       float: right; 
       font-size: 20px; 
-      margin-bottom: 20px; 
+      margin-bottom: 50px; 
       padding: 25px; 
-      margin-top: 20%; 
+      margin-top: 7%; 
       font-family: 'News Cycle', sans-serif;
 
-  }
+    }
 
-  .aboutme {
-    width: 65%; 
-    float: right; 
-    font-size: 20px; 
-    margin-bottom: 20px; 
-    padding: 25px; 
-    margin-top: 16.5%; 
-} 
-  
+    .btn {
+        font-size: 16px; 
+        font-family: 'News Cycle', sans-serif;
+        padding: 5px 10px; 
+        font-weight: 300; 
+        background-color: #ADD8E6;
+        border-color: black;  
+        font-weight: 400;  
+        transition: color 1s; 
+        transition: background-color 1s; 
+        cursor: pointer;
+        font-weight: bold;
+        margin: 0 auto; 
 
-  .Office.right-desc {
-      margin-top: 6%; 
-      margin-bottom: 15px;
-      padding: 25px; 
        
+
+    }
+
+    .row {
+        display: flex;
+      }
+      
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+
+        
+      }
     
-  }
+        
+  
+  
+  
+    .btn:hover {
+        color: rgb(43, 43, 247); 
+        background-color: darkgray; 
+        
+    }
 
-   .scroll {
-    text-align: center; 
-}
-
-
-  .Heels.right-desc {
-    margin-top: 6%; 
-    margin-bottom: 15px;
-    padding: 25px; 
-  }
-
-  .Quiz {
-      width: 100%;
-      height: auto; 
-     
-    
-  }
-
-  .Heels {
-      width: 100%;
-      height: auto;
-  }
+  
 
   ul {
       list-style: none; 
@@ -154,26 +151,7 @@
       border-right: 1px solid black;
       padding: 5%;
       
-  }
-
-  .btn-dark, .btn-light {
-      font-size: 18px; 
-      font-family: 'News Cycle', sans-serif;
-      padding: 5px 10px; 
-      font-weight: 300; 
-      background-color:lightgray;
-      border-color: black;  
-      font-weight: 400;  
-      transition: color 1s; 
-      transition: background-color 1s; 
-      cursor: pointer;
-
-
-  }
-
-  .btn-dark:hover, .btn-light:hover {
-      color: darkblue; 
-      background-color: darkgray; 
+ 
       
   }
   @media screen and (max-width: 800px){
@@ -200,3 +178,11 @@
     
       }
     
+      .movie {
+          width: 100%;
+          height: auto;
+
+      }
+
+     
+      
